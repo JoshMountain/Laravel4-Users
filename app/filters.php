@@ -43,7 +43,7 @@ Route::filter('auth', function()
 		}
 		else
 		{
-			return Redirect::guest('account-sign-in');
+			return Redirect::guest('account/sign-in');
 		}
 	}
 });
