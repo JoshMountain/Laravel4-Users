@@ -8,7 +8,7 @@
 
     <link rel="icon" href="{{ URL::to('favicon.ico') }}">
 
-    <title>Item Manager</title>
+    <title>Laravel Authentication</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{{ URL::to('css/bootstrap.min.css') }}" rel="stylesheet">
@@ -33,7 +33,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Item Manager</a>
+          <a class="navbar-brand" href="#">Laravel Authentication</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">

@@ -18,5 +18,5 @@
 </ul>
 
 <p id="copyright">
-    This is <a href="#">Item Manager</a> 1.0.0
+    This is <a href="https://github.com/JoshMountain/laravel-authentication">Laravel Authentication</a> 1.0.0
 </p>

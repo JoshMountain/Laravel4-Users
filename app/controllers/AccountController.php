@@ -105,7 +105,7 @@ class AccountController extends BaseController {
                     'link' => URL::route('account-activate', $code),
                     'username' => $username,
                 ), function($message) use ($user) {
-                    $message->to($user->email, $user->username)->subject('Activate Your Item Manager Account');
+                    $message->to($user->email, $user->username)->subject('Activate Your Account');
                 });
 
                 return Redirect::route('home')
@@ -243,7 +243,7 @@ class AccountController extends BaseController {
                             'password' => $password,
                         ), function($message) use ($user) {
 
-                            $message->to($user->email, $user->username)->subject('Item Manager Password Reset Request');
+                            $message->to($user->email, $user->username)->subject('Password Reset Request');
 
                         }
                     );

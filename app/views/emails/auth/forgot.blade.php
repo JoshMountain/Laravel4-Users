@@ -1,6 +1,6 @@
 Hello {{ $username }},<br><br>
 
-It looks like you requested a new password for Item Manager. You'll need to click the following link to activate it. If you did not request this, please ignore/delete this email.
+It looks like you requested a new password. You'll need to click the following link to activate it. If you did not request this, please ignore/delete this email.
 <br><br>
 New password: {{ $password }}<br><br>
 
